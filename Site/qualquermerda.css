@@ -1,0 +1,59 @@
+.header{
+	border-style: solid;
+	#background-color: tomato;
+	margin: 0 auto;
+	padding: 1rem;
+	color: black;
+	max-width: 50rem
+
+}
+
+.header2{
+	display: flex;
+	border-style: solid;
+	margin: 1rem;
+	padding: 0.1rem;
+	color: black;
+	#background-color: lightgreen;
+	justify-content:center;
+	
+
+}
+.logo{
+	display: flex;
+	align-content:flex-end;
+	padding: 1rem;
+
+}
+
+.logo2{
+	display: flex;
+	align-content:center;
+}
+.box{
+	display: flex;
+	background-image: linear-gradient(45deg, #DCDCDC 70%, #BEBEBE);
+}
+
+.box1, .box2, .box3, .box4, .box5{
+	border-style: solid;
+	display: flex;
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 12rem;
+	flex-direction: column;
+	align-content: center;
+	color: black;
+
+	
+}
+
+.boxDetalhe{
+	border-style: solid;
+	margin: 0 auto;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, #DCDCDC 70%, #BEBEBE);
+
+}
+
+
