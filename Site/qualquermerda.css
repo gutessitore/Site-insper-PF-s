@@ -1,12 +1,24 @@
+
 /* caixa de texto principal do menu */
 .header{
 	border-style: solid;
-	#background-color: tomato;
 	margin: 0 auto;
 	padding: 1rem;
 	color: black;
-	max-width: 50rem
+	max-width: 50rem;
+	align-content:center;
+	
 
+}
+
+
+/* muda as fontes dos títulos */
+#titulo{
+	font-family: 'Sanchez', serif;
+}
+
+#texto{
+	font-family: 'Lora', serif;
 }
 /* Caixa de texto inferioir ao texto principal */
 .header2{
@@ -26,13 +38,13 @@
 	padding: 1rem;
 
 }
-/* Imagens do Fab Lab */
+
 .logo2{
 	display: flex;
 	align-content:center;
 
 }
-
+/* Imagens do Fab Lab */
 .logo2 img{
 	margin: 0 auto;
 	width: 100%;
@@ -54,6 +66,7 @@
 	flex-direction: column;
 	align-content: center;
 	color: black;
+	font-family: 'Lora', serif;
 
 	
 }
@@ -63,3 +76,5 @@
 	margin: 0 auto;
 	padding: 1rem;
 	background-image: linear-gradient(45deg, #DCDCDC 70%, #BEBEBE);
+}
+
