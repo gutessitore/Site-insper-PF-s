@@ -7,9 +7,6 @@
 	color: black;
 	max-width: 50rem;
 	align-content:center;
-	
-	
-
 }
 
 
@@ -55,7 +52,7 @@
 /* Background do menu central */
 .box{
 	display: flex;
-	background-image: linear-gradient(45deg, #DCDCDC 70%, #BEBEBE);
+	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
 }
 /* secção de cada menu */
 .box1, .box2, .box3, .box4, .box5{
@@ -76,6 +73,6 @@
 	border-style: solid;
 	margin: 0 auto;
 	padding: 1rem;
-	background-image: linear-gradient(45deg, #DCDCDC 70%, #BEBEBE);
+	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
 }
 
