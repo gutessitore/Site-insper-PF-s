@@ -1,0 +1,78 @@
+
+/* caixa de texto principal do menu */
+.header{
+	border-style: solid;
+	margin: 0 auto;
+	padding: 1rem;
+	color: black;
+	max-width: 50rem;
+	align-content:center;
+}
+
+
+/* muda as fontes dos títulos */
+#titulo{
+	font-family: 'Sanchez', serif;
+}
+
+#texto{
+	font-family: 'Lora', serif;
+}
+/* Caixa de texto inferioir ao texto principal */
+.header2{
+	display: flex;
+	border-style: solid;
+	margin: 1rem;
+	padding: 0.1rem;
+	color: black;
+	justify-content:center;
+	
+
+}
+/* logo do Insper  */
+.logo{
+	display: flex;
+	align-content:flex-end;
+	padding: 1rem;
+
+}
+
+.logo2{
+	display: flex;
+	align-content:center;
+
+}
+/* Imagens do Fab Lab */
+.logo2 img{
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+/* Background do menu central */
+.box{
+	display: flex;
+	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
+}
+/* secção de cada menu */
+.box1, .box2, .box3, .box4, .box5{
+	border-style: solid;
+	display: flex;
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 12rem;
+	flex-direction: column;
+	align-content: center;
+	color: black;
+	font-family: 'Lora', serif;
+
+	
+}
+/* Menu Detalhe */
+.boxDetalhe{
+	border-style: solid;
+	margin: 0 auto;
+	padding: 1rem;
+	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
+}
+
