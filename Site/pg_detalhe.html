@@ -14,7 +14,6 @@
 		text-decoration:underline;
 	}
 </style>
-
 	<head>
 		<title>pg detalhe</title>
 		<link href='reset.css' rel="stylesheet">
@@ -25,12 +24,23 @@
 	<body>
 
 	<header class="logo">
-		<a href="pg_menu.html"><img src="images/logo.png"></a>
+		<a href="pg_menu.html"><img src="images/logo.png" style="width:70%"></a>
 	</header>
+
+	<div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+	</div>	
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="https://www.insper.edu.br/fale-conosco/">Contato</a>
+	  <a href="https://www.insper.edu.br/vestibular/">Inscreva-se no vestibular</a>
+	  <a href="https://www.insper.edu.br/">Site Oficial</a>
+	  <a href="https://www.insper.edu.br/institucional/o-insper/">Sobre</a>
+	</div>
 	
 		<header class="header">
 
-			<h1><font size="5"  id="titulo">Detalhe</font></h1>	
+			<h1><font size="8"  id="titulo">Detalhe</font></h1>	
 				<p id="texto">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -52,6 +62,15 @@
 			      <li><a href="pg_projeto.html">Projeto</a></li>
 			   </ul>
 		</header>
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "12rem";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 
 	</body>
 </html>

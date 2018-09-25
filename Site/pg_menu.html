@@ -24,18 +24,29 @@
 	<body>
 
 		<div class="logo">
-			<a href="pg_menu.html"><img src="images/logo.png"></a>
+			<a href="pg_menu.html"><img src="images/logo.png" style="width:70%"></a>
+		</div>
+		<div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+		</div>		
+
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="https://www.insper.edu.br/fale-conosco/">Contato</a>
+		  <a href="https://www.insper.edu.br/vestibular/">Inscreva-se no vestibular</a>
+		  <a href="https://www.insper.edu.br/">Site Oficial</a>
+		  <a href="https://www.insper.edu.br/institucional/o-insper/">Sobre</a>
 		</div>
 
 		<header class="header">
-			<h1><font size="6" id="titulo">Portfólio</font></h1>
+			<h1><font size="8" id="titulo">Portfólio</font></h1>
 				<p id="texto">
 					O curso de engenharia do Insper tem como um dos grandes focos as atividades práticas. Com isso, os projetos finais das matérias cursadas são projetos sérios e complexos que visam desenvolver diversas habilidades que são separadas em objetivos, para completar um projeto o aluni deve atingir a nota mínima em cada objetivo. Entre essas matérias, os projetos podem ser separados em competências (como matemática, computação, habilidades mecânicas etc..). Esse portfólio tem como função categorizar, demonstrar e explicar a fundo todos os projetos feitos ao decorrer desse curso.(texto em andamento)
 	    		
     	</header>
 
     	<header class="header2">
-			<h2><font size="5" id="titulo">Classificação</font></h2>
+			<h2><font size="5" id="titulo">Habilidades</font></h2>
     	</header>
 
     	<header class="box">
@@ -95,6 +106,16 @@
 	<header class="logo2">
 		<a href="https://www.insper.edu.br/fab-lab/"><img src="images/fabs.jpg"></a>
 	</header>
+
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "12rem";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 
 	</body>
 </html>
