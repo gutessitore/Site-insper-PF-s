@@ -1,0 +1,22 @@
+
+
+	Natdes:
+
+		No projeto final de Natureza do Design, fizemos um projeto de uma luminária em forma de girafa utilizando todas as ferramentas que o Laboratório FabLab possui em grupos de 4 pessoas. Esse projeto tinha como objetivo ensainar os alunos a utilizarem o laboratório e todas as suas ferramentas. A girafa era composta por 5 partes, sendo elas a parte eletríca dos LEDs, os Chifres, os óculos, a estrutura da cabeça e a estrutura do corpo.
+
+		Para a parte da cabeça da girafa, foi usada a MILENA e na Bancada Eletrônica. A MILENA é uma fresadora usada para se fazer placas integradas. depois de feito a placa na MILENA foi preciso soldar os componentes a ela usando a Bancada Eletônica que se dispõe dos equipamentos necescários para essa taréfa. um dos desafios do projeto foi utilizar o microprocessador para fazer os LEDs RGB trocarem de cor.
+
+		Os chifres foram impressos de um modelo na impressora 3D usando ABS transparente 1.75mm
+
+		Os Óculos foram cortados como adesivos na Viníl
+
+		A estrutura da cabeça foi feita a partir de um CAD todo organizado para depois ser cortada na cortadora laser e montado a mão. O material usado foi uma lamina de MDF 3mm
+
+		Por fim, a estrutura do corpo foi feita em MDF 12mm. Essa milimetragem não é suportada na cortadora a laser, então foi usada a ShopBot que é uma fresadora cnc de maior porte.
+
+		Depois de feita todas as peças, elas foram juntadas, completando a Girafa.
+
+	MatVar:
+
+		O projeto de Matemática da Variação foi um projeto focado no ideal do Insper "Aprender a aprender" no qual foram apresentados aos alunos 7 temas focados no aprofundamento da matéria para serem escolhidos em grupos de 3 pessoas. O objetivo do projeto era fazer com que os alunos dessem uma aula sobre esse tema, do qual nunca tinham ouvido falar e, para isso, teriam que buscar a ajuda de livros didáticos e fontes na internet para aprender sobre o tema e pasasr o conhecimento adquirido para os colegas.
+
