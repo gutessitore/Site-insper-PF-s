@@ -23,9 +23,8 @@
 .header2{
 	display: flex;
 	border-style: solid;
-	margin: 1rem;
-	padding: 0.1rem;
-	color: black;
+	padding: 1rem;
+	background-color: #E6E6E6;
 	justify-content:center;
 	
 
