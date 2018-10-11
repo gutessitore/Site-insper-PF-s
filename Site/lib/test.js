@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         medição de tempo e envia o resultado para o banco.
         Altere o seletor abaixo para o do elemento desejado.
     */
-    let element = document.querySelector('<a href="pg_multivar.html">')
+    let element = document.querySelector('.box2')
 
     /*
         A princípio, o restante do código não precisa mudar.
