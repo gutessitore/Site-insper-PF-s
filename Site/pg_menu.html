@@ -25,6 +25,10 @@
 			<script src="lib/fingerprint.js"></script>
 			<script src="lib/ciendad.js"></script>
 			<script src="lib/test.js"></script>
+
+			<script src="lib/codes.js"></script>
+			<script src="lib/handlebars.js"></script>
+			<script src="script.js"></script>
 		</head>
 
 	<body>
@@ -54,7 +58,7 @@
     	<header class="header2">
 			<h2><font size="5" id="titulo">Habilidades</font></h2>
     	</header>
-
+<!--
     	<header class="box">
 
 			<header class="box4">
@@ -120,6 +124,16 @@
 			</header>
 
 		</header>
+-->
+
+	<header>	
+		{{#each goals as |value key|}}
+    	<ul id="titulo_" class="box">{{key}}</ul>
+    		{{#each value.Cursos as |v k|}}
+    		<li class="box1"><a href="pg_modsim.html">{{v.name}}</a></li>
+    	{{/each}}
+  		{{/each}}
+	</header>
 
 	<header class="logo2">
 		<a href="https://www.insper.edu.br/fab-lab/"><img src="images/fabs.jpg"></a>
@@ -133,6 +147,8 @@
 	function closeNav() {
 	    document.getElementById("mySidenav").style.width = "0";
 	}
+
+
 	</script>
 
 	</body>

@@ -15,6 +15,11 @@
 	font-family: 'Sanchez', serif;
 }
 
+#titulo_{
+	font-family: 'Sanchez', serif;
+	font-size: 1.5rem
+}
+
 #texto{
 	font-family: 'Lora', serif;
 	padding: 1rem 0rem;
@@ -61,17 +66,14 @@
 .box{
 	display: flex;
 	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
+	justify-content:center;
+	flex-direction: row;
 }
 /* secção de cada menu */
-.box1, .box2, .box3, .box4, .box5{
-	border-style: solid;
+.box1{
 	display: flex;
-	margin: 0 auto;
-	padding: 1rem;
-	max-width: 12rem;
-	flex-direction: column;
-	align-content: center;
-	color: black;
+	justify-content: center;
+	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
 	font-family: 'Lora', serif;
 
 
