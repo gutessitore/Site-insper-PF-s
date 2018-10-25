@@ -49,7 +49,7 @@
 		</div>
 
 		<header class="header">
-			<h1><font size="8" id="titulo">Portfólio</font></h1>
+			<h1><font size="8" class="titulo">Portfólio</font></h1>
 				<p id="texto">
 					O curso de engenharia do Insper tem como um dos grandes focos as atividades práticas. Com isso, os projetos finais das matérias cursadas são projetos sérios e complexos que visam desenvolver diversas habilidades que são separadas em objetivos, para completar um projeto o aluni deve atingir a nota mínima em cada objetivo. Entre essas matérias, os projetos podem ser separados em competências (como matemática, computação, habilidades mecânicas etc..). Esse portfólio tem como função categorizar, demonstrar e explicar a fundo todos os projetos feitos ao decorrer desse curso.
 	    		
@@ -127,12 +127,17 @@
 -->
 
 	<header>	
-		{{#each goals as |value key|}}
-    	<ul id="titulo_" class="box">{{key}}</ul>
-    		{{#each value.Cursos as |v k|}}
-    		<li class="box1"><a href="pg_modsim.html">{{v.name}}</a></li>
-    	{{/each}}
+    	<ul class="box">
+			{{#each goals as |value key|}}
+    		<li>
+				<p class="titulo_ ">{{key}}</p>
+    				{{#each Cursos as |v k|}}
+    			</br>
+					<a href="pg_projeto.html?category={{key}}&course={{k}}" class="texto">{{v.name}}</a>
+					{{/each}}
+			</li>
   		{{/each}}
+  		</ul>
 	</header>
 
 	<header class="logo2">

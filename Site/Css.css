@@ -11,16 +11,16 @@
 
 
 /* muda as fontes dos títulos */
-#titulo{
+.titulo{
 	font-family: 'Sanchez', serif;
 }
 
-#titulo_{
+.titulo_{
 	font-family: 'Sanchez', serif;
 	font-size: 1.5rem
 }
 
-#texto{
+.texto{
 	font-family: 'Lora', serif;
 	padding: 1rem 0rem;
 }
@@ -65,20 +65,12 @@
 /* Background do menu central */
 .box{
 	display: flex;
-	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
 	justify-content:center;
 	flex-direction: row;
-}
-/* secção de cada menu */
-.box1{
-	display: flex;
-	justify-content: center;
 	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
-	font-family: 'Lora', serif;
-
-
-	
+	padding: 0.5rem; 
 }
+
 
 /* Menu Detalhe */
 .boxDetalhe{
@@ -86,6 +78,12 @@
 	margin: 0 auto;
 	padding: 1rem;
 	background-image: linear-gradient(45deg, #a8a8a8 70%, #8d8d8d);
+}
+
+.item-lista{
+	display: flex;
+	background-color: orange;
+
 }
 
 /*Side nav */
