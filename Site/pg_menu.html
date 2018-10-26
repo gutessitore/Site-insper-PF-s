@@ -25,7 +25,6 @@
 			<script src="lib/fingerprint.js"></script>
 			<script src="lib/ciendad.js"></script>
 			<script src="lib/test.js"></script>
-
 			<script src="lib/codes.js"></script>
 			<script src="lib/handlebars.js"></script>
 			<script src="script.js"></script>
@@ -33,8 +32,8 @@
 
 	<body>
 
-		<div class="logo">
-			<a href="pg_menu.html"><img src="images/logo.png" style="width:70%"></a>
+		<div>
+			<a href="pg_menu.html"><img src="images/logo.png" class="logo"></a>
 		</div>
 		<div>
 			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -45,7 +44,7 @@
 		  <a href="https://www.insper.edu.br/fale-conosco/">Contato</a>
 		  <a href="https://www.insper.edu.br/vestibular/">Inscreva-se no vestibular</a>
 		  <a href="https://www.insper.edu.br/">Site Oficial</a>
-		  <a href="https://www.insper.edu.br/institucional/o-insper/">Sobre</a>
+		  <a href="https://www.insper.edu.br/institucional/o-insper/">Sobre o Insper</a>
 		</div>
 
 		<header class="header">
@@ -58,103 +57,36 @@
     	<header class="header2">
 			<h2><font size="5" id="titulo">Habilidades</font></h2>
     	</header>
-<!--
-    	<header class="box">
 
-			<header class="box4">
-				   	<h2><font size="4" id="titulo">Apresentação</font></h2>
-					   	<ul id="texto">
-					   		<li><a href="pg_desmat.html">- Desconstruindo a Matéria</a></li>
-							<li><a href="pg_desoft.html">- Design de Software</a></li>
-							<li><a href="pg_gde.html">- Grandes Desafios da Engenharia</a></li>
-							<li><a href="pg_instrumed.html">- Instrumentação e Medição</a></li>
-							<li><a href="pg_matvar.html">- Matemática da Variação</a></li>
-							<li><a href="pg_modsim.html">- Modelagem e Simulação do Mundo Físico</a></li>
-							<li><a href="pg_natdes.html">- Natureza do Design</a></li>
-					   </ul>
-			</header>
-
-			<header class="box1">
-				   	<h2><font size="4" id="titulo">Ciências da Natureza</font></h2>
-					   	<ul id="texto">
-					      <li><a href="pg_desmat.html">- Desconstruindo a Matéria</a></li>
-					      <li><a href="pg_acionas.html">- Acionamentos Elétricos</a></li>
-					      <li><a href="pg_modsim.html">- Modelagem e Simulação do Mundo Físico</a></li>
-						</ul>		
-			</header>	
-
-			<header class="box2">
-				   	<h2><font size="4" id="titulo">Conhecimentos Matemáticos</font></h2>
-					   	<ul id="texto">
-							<li><a href="pg_cdados.html">- Ciência dos Dados</a></li>
-							<li><a href="pg_matvar.html">- Matemática da Variação</a></li>
-							<li><a href="pg_multivar.html">- Matemática Multivariada</a></li>
-							<li><a href="pg_modsim.html">- Modelagem e Simulação do Mundo Físico</a></li>
-						</ul>
-			</header>
-
-			<header class="box3">
-				   	<h2><font size="4" id="titulo">Design</font></h2>
-					   	<ul id="texto">
-					      <li><a href="pg_codes.html">- Co-Design de Aplicativos</a></li>
-					      <li><a href="pg_desoft.html">- Design de Software</a></li>
-						  <li><a href="pg_modsim.html">- Modelagem e Simulação do Mundo Físico</a></li>
-						  <li><a href="pg_natdes.html">- Natureza do Design</a></li>
-					   </ul>
-			</header>
-
-			<header class="box4">
-				   	<h2><font size="4" id="titulo">Eletrônica</font></h2>
-					   	<ul id="texto">
-					      <li><a href="pg_acionas.html">- Acionamentos Elétricos</a></li>
-					      <li><a href="pg_instrumed.html">- Instrumentação e Medição</a></li>
-					      <li><a href="pg_natdes.html">- Natureza do Design</a></li>
-					   </ul>
-			</header>
-
-	    	<header class="box1">
-				   	<h2><font size="4" id="titulo">Programação</font></h2>
-					   	<ul id="texto">
-					      <li><a href="pg_cdados.html">- Ciência dos Dados</a></li>
-					      <li><a href="pg_codes.html">- Co-Design de Aplicativos</a></li>
-					      <li><a href="pg_desoft.html">- Design de Software</a></li>
-					      <li><a href="pg_instrumed.html">- Instrumentação e Medição</a></li>
-					      <li><a href="pg_modsim.html">- Modelagem e Simulação do Mundo Físico</a></li>
-						</ul>		
-			</header>
-
+		<header>	
+	    	<ul class="box">
+				{{#each goals as |value key|}}
+	    		<li>
+					<p class="titulo_ ">{{key}}</p>
+	    				{{#each Cursos as |v k|}}
+	    			</br>
+						<a href="pg_projeto.html?category={{key}}&course={{k}}" class="texto">-{{v.name}}</a>
+						{{/each}}
+				</li>
+	  		{{/each}}
+	  		</ul>
 		</header>
--->
 
-	<header>	
-    	<ul class="box">
-			{{#each goals as |value key|}}
-    		<li>
-				<p class="titulo_ ">{{key}}</p>
-    				{{#each Cursos as |v k|}}
-    			</br>
-					<a href="pg_projeto.html?category={{key}}&course={{k}}" class="texto">{{v.name}}</a>
-					{{/each}}
-			</li>
-  		{{/each}}
-  		</ul>
-	</header>
+		<header class="logo2">
+			<a href="https://www.insper.edu.br/fab-lab/"><img src="images/fabs.jpg"></a>
+		</header>
 
-	<header class="logo2">
-		<a href="https://www.insper.edu.br/fab-lab/"><img src="images/fabs.jpg"></a>
-	</header>
+		<script>
+			function openNav() {
+			    document.getElementById("mySidenav").style.width = "12rem";
+			}
 
-	<script>
-	function openNav() {
-	    document.getElementById("mySidenav").style.width = "12rem";
-	}
-
-	function closeNav() {
-	    document.getElementById("mySidenav").style.width = "0";
-	}
+			function closeNav() {
+			    document.getElementById("mySidenav").style.width = "0";
+			}
 
 
-	</script>
+		</script>
 
 	</body>
 </html>
